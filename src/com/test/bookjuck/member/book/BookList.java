@@ -10,6 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.test.bookjuck.dao.BookDAO;
 import com.test.bookjuck.dto.BookDTO;
@@ -30,7 +31,7 @@ public class BookList extends HttpServlet {
 		String seqLCategory = request.getParameter("seqLCategory");
 		String seqMCategory = request.getParameter("seqMCategory");
 		String seqSCategory = request.getParameter("seqSCategory");
-		
+
 		//String lCategory = request.getParameter("lCategory");
 		//String mCategory = request.getParameter("mCategory");
 

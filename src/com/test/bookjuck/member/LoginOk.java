@@ -42,15 +42,11 @@ public class LoginOk extends HttpServlet {
 		//휴면계정 찾기
 		int result_h = dao_h.check(dto);
 		
-		System.out.println(result_h);
-		
-		
 		if (result == 1 && result_h == 0) {
 
 			HttpSession session = req.getSession();
 			
 			session.setAttribute("id", dto.getId());
-			
 			MemberDTO rdto = dao.getMember(id);
 			
 			//사이트 전역을 계속 들고 다녀야 하는 정보
@@ -71,9 +67,9 @@ public class LoginOk extends HttpServlet {
 			
 			session.setAttribute("curation", rdto.getCuration());
 			
-			
+			System.out.println(session.getAttribute("seq"));
 			//시작 페이지로 이동
-			resp.sendRedirect("http://localhost:8090/bookjuck/index.do");
+			resp.sendRedirect("/bookjuck/index.do");
 		}else if(result_h > 0) {
 			//휴면 계정 로그인 실패
 			PrintWriter writer = resp.getWriter();
