@@ -11,7 +11,7 @@
             <a href="/bookjuck/member/login.do" class="headerlink-item">마이페이지</a>
             <a href="/bookjuck/member/login.do" class="headerlink-item">로그인</a>
             <a href="/bookjuck/member/tos.do" class="headerlink-item">회원가입</a>
-            <a href="/bookjuck/member/login.do" class="headerlink-item">장바구니</a>
+            <a href="/bookjuck/member/cart/list.do" class="headerlink-item">장바구니</a>
             <a href="/bookjuck/member/login.do" class="headerlink-item">주문/배송조회</a>
             <a href="/bookjuck/memeber/login.do" class="headerlink-item">QnA</a>
             <a href="/bookjuck/member/notice/list.do" class="headerlink-item">공지사항</a>
@@ -22,7 +22,7 @@
         <div id="headerlink">
             <a href="/bookjuck/member/mypage.do" class="headerlink-item">마이페이지</a>
             <a href="/bookjuck/member/logoutok.do" class="headerlink-item">로그아웃</a>
-            <a href="/bookjuck/member/order/cart.do" class="headerlink-item">장바구니</a>
+            <a href="/bookjuck/member/cart/list.do" class="headerlink-item">장바구니</a>
             <a href="/bookjuck/member/mypage/orderlist.do" class="headerlink-item">주문/배송조회</a>
             <a href="/bookjuck/member/qna/list.do" class="headerlink-item">QnA</a>
             <a href="/bookjuck/member/notice/list.do" class="headerlink-item">공지사항</a>
@@ -79,11 +79,11 @@
             
 
            
-            <%
+            <%-- <%
 			      out.flush();
 			       RequestDispatcher drealtime = request.getRequestDispatcher("/common/realtimesearch.do");
 			       drealtime.include(request, response);
-			   %>
+			   %> --%>
        
             
             

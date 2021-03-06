@@ -86,22 +86,26 @@
 							<img src="/bookjuck/image/book/${dto.image}" class="image">
 						</a>
 					</td>
-					<td>
-						<div><a href="/bookjuck/member/book/ebookdetail.do?seqLCategory=${dto.seqLCategory}&seqMCategory=${dto.seqMCategory}&seqSCategory=${dto.seqSCategory}&seq=${dto.seq}" class="title">${dto.title}</a></div>
-						<div class="info">${dto.author} | ${dto.publisher}</div>
-						<div class="subinfo">${dto.pubDate}</div>
-						<div class="intro">${dto.intro}</div>
-						<div class="priceinfo">
-							<span class="price"><s>정가 ${String.format('%,d원', dto.price)}</s></span>
-							<span class="saleprice">판매가 <strong>${String.format('%,d', dto.salePrice)}</strong>원</span>
-						</div>
-					</td>
-					<td>
-						<div class="btns">
-							<button class="btn btn-success btn-lg btn-block cart">장바구니</button>
-							<button class="btn btn-primary btn-lg btn-block buy">바로구매</button>
-						</div>
-					</td>
+					
+						<td>
+							<div><a href="/bookjuck/member/book/ebookdetail.do?seqLCategory=${dto.seqLCategory}&seqMCategory=${dto.seqMCategory}&seqSCategory=${dto.seqSCategory}&seq=${dto.seq}" class="title">${dto.title}</a></div>
+							<div class="info">${dto.author} | ${dto.publisher}</div>
+							<div class="subinfo">${dto.pubDate}</div>
+							<div class="intro">${dto.intro}</div>
+							<div class="priceinfo">
+								<span class="price"><s>정가 ${String.format('%,d원', dto.price)}</s></span>
+								<span class="saleprice">판매가 <strong>${String.format('%,d', dto.salePrice)}</strong>원</span>
+							</div>
+						</td>
+						<form method="POST" action="/bookjuck/member/cart/eadd.do">
+							<td>
+								<div class="btns">
+									<input type="submit" class="btn btn-success btn-lg btn-block cart" value="장바구니">
+									<button class="btn btn-primary btn-lg btn-block buy">바로구매</button>
+								</div>
+							</td>
+							<input type="hidden" id="eseq" name="eseq" value=${dto.seq}>
+						</form>
 				</tr>
 				</c:forEach>
 				

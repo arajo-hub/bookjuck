@@ -1,4 +1,4 @@
-package com.test.bookjuck.member.order;
+package com.test.bookjuck.member.cart;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,16 +10,19 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import com.test.bookjuck.dao.BaroCartDAO;
 import com.test.bookjuck.dao.BookCartDAO;
-import com.test.bookjuck.dto.BookCartDTO;
 
-@WebServlet("/member/order/cartaddok.do")
-public class CartAddOk extends HttpServlet {
-
+@WebServlet("/member/cart/baroadd.do")
+public class BaroAdd extends HttpServlet {
+	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-		// 1. 1차적으로 로그인 접속이 맞는지 확인
+		
+		// 1. 로그인 했는지 확인
+		// 2. 데이터 가져오기
+		
+		// 1.
 		HttpSession session=req.getSession();
 		
 		if (session.getAttribute("id")==null) {
@@ -36,28 +39,28 @@ public class CartAddOk extends HttpServlet {
 			
 			writer.close();
 			
+			return;
+			
 		}
 		
-		req.setCharacterEncoding("UTF-8");
-
-		BookCartDTO dto = new BookCartDTO();
+		// 2.
 		
-		String seqBook=req.getParameter("seqBook");
-		String amount = req.getParameter("amount");
+		String seq=req.getParameter("seqBook");
+		String mseq=session.getAttribute("seq").toString(); // 로그인한 상태의 회원번호
+		String amount=req.getParameter("amount");
 		
-		dto.setSeqBook(seqBook);
-		dto.setAmount(amount);
-		dto.setSeqMember(session.getAttribute("seq").toString());
+		String seqLCategory=req.getParameter("seqLCategory");
+		String seqMCategory=req.getParameter("seqMCategory");
 		
-		BookCartDAO dao = new BookCartDAO();
+		BaroCartDAO dao=new BaroCartDAO();
 		
-		int result = dao.add(dto);
+		int result=dao.add(seq, mseq, amount);
 		
-		if(result == 1) {
-			//장바구니 담기 성공
-			
-		}else {
-			//장바구니 담기 실패
+		if (result==1) {
+			// 카트 추가 성공 -> 게시판 목록으로 이동
+			resp.sendRedirect("/bookjuck/member/book/booklist.do?seqLCategory="+seqLCategory+"&seqMCategory="+seqMCategory);
+		} else {
+			// 카트 추가 실패 -> 경고 + 뒤로 가기
 			PrintWriter writer=resp.getWriter();
 			
 			writer.print("<html><body>");
@@ -70,9 +73,8 @@ public class CartAddOk extends HttpServlet {
 			writer.close();
 			
 			return;
+			
 		}
-		
-		
-		
 	}
+
 }
