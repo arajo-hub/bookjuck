@@ -132,115 +132,125 @@
 |    단계    | 조아라 담당업무                                              |
 | :--------: | :----------------------------------------------------------- |
 |  기획단계  | - 담당업무 요구사항분석서 작성<br />- 담당업무 화면 설계 작성<br />- 담당업무 ERD 작성<br />- 담당업무 DDL 작성<br />- 더미데이터 작성(파이썬 웹크롤링으로 도서 더미 생성) |
-|  구현단계  | - (사용자) 공지사항 게시판 조회 기능 구현<br />- (사용자) QnA 게시판 질문글 조회/작성/수정/삭제 기능 구현<br />- (사용자) 자주하는 질문 게시판 조회/검색 기능 구현<br />- (사용자) 독후감 게시판 조회/작성/수정/삭제 기능 구현<br />- (관리자) 공지사항 게시판 조회/작성/수정/삭제 기능 구현<br />- (관리자) QnA 게시판 답변글 조회/작성/수정/삭제 기능 구현<br />- (관리자) QnA 게시판 질문글 조회/삭제 기능 구현<br />- (관리자) 자주하는 질문 게시판 답변글 조회/작성/수정/검색 기능 구현<br />- (관리자) 질문카테고리 조회/추가/수정 기능 구현<br />- (관리자) 독후감 게시판 조회/삭제 기능 구현<br />- (관리자) 우수독후감 선정하여 작성자에게 포인트 지급하는 기능 구현<br />- (관리자) 큐레이션 레터 전송내역 조회 및 전송한 큐레이션 레터 조회 기능 구현<br />- (관리자) 큐레이션 레터 이메일 전송 및 전송내역 DB저장 기능 구현<br />- (공통) 웹소켓을 이용한 사용자와 관리자 간의 실시간 채팅상담 기능 구현 |
+|  구현단계  | - (사용자) 공지사항 게시판 조회 기능 구현<br />- (사용자) QnA 게시판 질문글 조회/작성/수정/삭제 기능 구현<br />- (사용자) 자주하는 질문 게시판 조회/검색 기능 구현<br />- (사용자) 독후감 게시판 조회/작성/수정/삭제 기능 구현<br />- (관리자) 공지사항 게시판 조회/작성/수정/삭제 기능 구현<br />- (관리자) QnA 게시판 답변글 조회/작성/수정/삭제 기능 구현<br />- (관리자) QnA 게시판 질문글 조회/삭제 기능 구현<br />- (관리자) 자주하는 질문 게시판 답변글 조회/작성/수정/검색 기능 구현<br />- (관리자) 질문카테고리 조회/추가/수정 기능 구현<br />- (관리자) 독후감 게시판 조회/삭제 기능 구현<br />- (관리자) 우수독후감 선정하여 작성자에게 포인트 지급하는 기능 구현<br />- (관리자) 중고거래 게시판 글 조회/삭제/검색/작성자 글  및 댓글 조회/삭제 기능 구현<br />- (관리자) 큐레이션 레터 전송내역 조회 및 전송한 큐레이션 레터 조회 기능 구현<br />- (관리자) 큐레이션 레터 이메일 전송 및 전송내역 DB저장 기능 구현<br />- (공통) 웹소켓을 이용한 사용자와 관리자 간의 실시간 채팅상담 기능 구현 |
 | 마무리단계 | - 프로그램 담당업무 화면 캡처<br />- 프로젝트 최종요약본 작성<br />- 발표용 PPT 작성 |
 #### 조아라 구현 코드
 
 1. (사용자) 공지사항 게시판 조회 기능 구현
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/공지사항/공지사항 목록조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD%20%EB%AA%A9%EB%A1%9D%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/공지사항/공지사항 상세조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD%20%EC%83%81%EC%84%B8%EC%A1%B0%ED%9A%8C.png)
 
 2. (사용자) QnA 게시판 질문글 조회/작성/수정/삭제 기능 구현
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/QnA/QnA 목록조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/QnA/QnA%20%EB%AA%A9%EB%A1%9D%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/QnA/QnA 작성.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/QnA/QnA%20%EC%9E%91%EC%84%B1.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/QnA/QnA 수정.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/QnA/QnA%20%EC%88%98%EC%A0%95.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/QnA/QnA 삭제 확인.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/QnA/QnA%20%EC%82%AD%EC%A0%9C%20%ED%99%95%EC%9D%B8.png)
 
 3. (사용자) 자주하는 질문 게시판 조회/검색 기능 구현
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/자주하는 질문/자주하는 질문 목록조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%20%EC%A7%88%EB%AC%B8/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%20%EC%A7%88%EB%AC%B8%20%EB%AA%A9%EB%A1%9D%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/자주하는 질문/자주하는 질문 상세조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%20%EC%A7%88%EB%AC%B8/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%20%EC%A7%88%EB%AC%B8%20%EC%83%81%EC%84%B8%EC%A1%B0%ED%9A%8C.png)
 
 4. (사용자) 독후감 게시판 조회/작성/수정/삭제 기능 구현
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/마이페이지/나의 독후감/독후감 목록조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/%EB%A7%88%EC%9D%B4%ED%8E%98%EC%9D%B4%EC%A7%80/%EB%82%98%EC%9D%98%20%EB%8F%85%ED%9B%84%EA%B0%90/%EB%8F%85%ED%9B%84%EA%B0%90%20%EB%AA%A9%EB%A1%9D%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/마이페이지/나의 독후감/독후감 상세조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/%EB%A7%88%EC%9D%B4%ED%8E%98%EC%9D%B4%EC%A7%80/%EB%82%98%EC%9D%98%20%EB%8F%85%ED%9B%84%EA%B0%90/%EB%8F%85%ED%9B%84%EA%B0%90%20%EC%83%81%EC%84%B8%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/마이페이지/나의 독후감/독후감 작성.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/%EB%A7%88%EC%9D%B4%ED%8E%98%EC%9D%B4%EC%A7%80/%EB%82%98%EC%9D%98%20%EB%8F%85%ED%9B%84%EA%B0%90/%EB%8F%85%ED%9B%84%EA%B0%90%20%EC%9E%91%EC%84%B1.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/마이페이지/나의 독후감/독후감 수정.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/%EB%A7%88%EC%9D%B4%ED%8E%98%EC%9D%B4%EC%A7%80/%EB%82%98%EC%9D%98%20%EB%8F%85%ED%9B%84%EA%B0%90/%EB%8F%85%ED%9B%84%EA%B0%90%20%EC%88%98%EC%A0%95.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/마이페이지/나의 독후감/독후감 삭제.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/%EB%A7%88%EC%9D%B4%ED%8E%98%EC%9D%B4%EC%A7%80/%EB%82%98%EC%9D%98%20%EB%8F%85%ED%9B%84%EA%B0%90/%EB%8F%85%ED%9B%84%EA%B0%90%20%EC%82%AD%EC%A0%9C.png)
 
 5. (관리자) 공지사항 게시판 조회/작성/수정/삭제 기능 구현
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/공지사항/공지사항 목록조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD%20%EB%AA%A9%EB%A1%9D%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/공지사항/공지사항 상세조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD%20%EC%83%81%EC%84%B8%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/공지사항/공지사항 작성.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD%20%EC%9E%91%EC%84%B1.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/공지사항/공지사항 수정.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD%20%EC%88%98%EC%A0%95.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/공지사항/공지사항 삭제확인.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD%20%EC%82%AD%EC%A0%9C%ED%99%95%EC%9D%B8.png)
 
 6. (관리자) QnA 게시판 답변글 조회/작성/수정, 질문글 삭제 기능 구현 및 (관리자) QnA 게시판 질문글 조회/삭제 기능 구현
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/QnA/QnA 목록조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/QnA/QnA%20%EB%AA%A9%EB%A1%9D%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/QnA/QnA 상세조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/QnA/QnA%20%EC%83%81%EC%84%B8%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/QnA/QnA 답변 작성.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/QnA/QnA%20%EB%8B%B5%EB%B3%80%20%EC%9E%91%EC%84%B1.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/QnA/QnA 답변 수정.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/QnA/QnA%20%EB%8B%B5%EB%B3%80%20%EC%88%98%EC%A0%95.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/QnA/QnA 삭제.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/QnA/QnA%20%EC%82%AD%EC%A0%9C.png)
 
 7. (관리자) 자주하는 질문 게시판 조회/작성/수정/삭제/검색 기능 구현
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/자주하는 질문/자주하는질문 목록조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%20%EC%A7%88%EB%AC%B8/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%EC%A7%88%EB%AC%B8%20%EB%AA%A9%EB%A1%9D%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/자주하는 질문/자주하는질문 상세조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%20%EC%A7%88%EB%AC%B8/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%EC%A7%88%EB%AC%B8%20%EC%83%81%EC%84%B8%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/자주하는 질문/자주하는 질문 작성.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%20%EC%A7%88%EB%AC%B8/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%20%EC%A7%88%EB%AC%B8%20%EC%9E%91%EC%84%B1.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/자주하는 질문/자주하는질문 수정.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%20%EC%A7%88%EB%AC%B8/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%EC%A7%88%EB%AC%B8%20%EC%88%98%EC%A0%95.png)
 
 8. (관리자) 질문카테고리 조회/추가/수정 기능 구현
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/자주하는 질문/질문카테고리 목록조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%20%EC%A7%88%EB%AC%B8/%EC%A7%88%EB%AC%B8%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%20%EB%AA%A9%EB%A1%9D%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/자주하는 질문/질문카테고리 추가.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%20%EC%A7%88%EB%AC%B8/%EC%A7%88%EB%AC%B8%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%20%EC%B6%94%EA%B0%80.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/자주하는 질문/질문카테고리 수정.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EC%9E%90%EC%A3%BC%ED%95%98%EB%8A%94%20%EC%A7%88%EB%AC%B8/%EC%A7%88%EB%AC%B8%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%20%EC%88%98%EC%A0%95.png)
 
 9. (관리자) 독후감 게시판 조회/삭제 기능 구현
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/독후감/독후감 목록조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EB%8F%85%ED%9B%84%EA%B0%90/%EB%8F%85%ED%9B%84%EA%B0%90%20%EB%AA%A9%EB%A1%9D%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/독후감/독후감 상세조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EB%8F%85%ED%9B%84%EA%B0%90/%EB%8F%85%ED%9B%84%EA%B0%90%20%EC%83%81%EC%84%B8%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/게시판관리/독후감/독후감 삭제.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EB%8F%85%ED%9B%84%EA%B0%90/%EB%8F%85%ED%9B%84%EA%B0%90%20%EC%82%AD%EC%A0%9C.png)
 
 10. (관리자) 우수독후감 선정하여 작성자에게 포인트 지급하는 기능 구현
 
-11. (관리자) 큐레이션 레터 전송내역 조회 및 전송한 큐레이션 레터 조회 기능 구현
+11. (관리자) 중고거래 게시판 글 조회/삭제/검색/작성자 글 더보기 및 댓글 조회/삭제 기능 구현
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/고객관리/큐레이션레터/큐레이션레터 전송내역 목록조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EC%A4%91%EA%B3%A0%EA%B2%8C%EC%8B%9C%ED%8C%90/%EC%A4%91%EA%B3%A0%EA%B2%8C%EC%8B%9C%ED%8C%90%20%EC%8D%B8%EB%84%A4%EC%9D%BC%20%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/고객관리/큐레이션레터/큐레이션레터 상세조회.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EC%A4%91%EA%B3%A0%EA%B2%8C%EC%8B%9C%ED%8C%90/%EC%A4%91%EA%B3%A0%EA%B2%8C%EC%8B%9C%ED%8C%90%20%EC%83%81%EC%84%B8%EC%A1%B0%ED%9A%8C.png)
 
-12. (관리자) 큐레이션 레터 이메일 전송 및 전송내역 DB저장 기능 구현
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EC%A4%91%EA%B3%A0%EA%B2%8C%EC%8B%9C%ED%8C%90/%EC%A4%91%EA%B3%A0%EA%B2%8C%EC%8B%9C%ED%8C%90%20%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/고객관리/큐레이션레터/큐레이션레터 작성.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B2%8C%EC%8B%9C%ED%8C%90%EA%B4%80%EB%A6%AC/%EC%A4%91%EA%B3%A0%EA%B2%8C%EC%8B%9C%ED%8C%90/%EC%A4%91%EA%B3%A0%EA%B2%8C%EC%8B%9C%ED%8C%90%20%EA%B8%80%20%EC%82%AD%EC%A0%9C.png)
 
-![큐레이션레터 미리보기](/Users/ara/github/bookjuck/[08]화면캡처/관리자/고객관리/큐레이션레터/큐레이션레터 미리보기.png)
+12. (관리자) 큐레이션 레터 전송내역 조회 및 전송한 큐레이션 레터 조회 기능 구현
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/고객관리/큐레이션레터/큐레이션레터 수신.jpg)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B3%A0%EA%B0%9D%EA%B4%80%EB%A6%AC/%ED%81%90%EB%A0%88%EC%9D%B4%EC%85%98%EB%A0%88%ED%84%B0/%ED%81%90%EB%A0%88%EC%9D%B4%EC%85%98%EB%A0%88%ED%84%B0%20%EC%A0%84%EC%86%A1%EB%82%B4%EC%97%AD%20%EB%AA%A9%EB%A1%9D%EC%A1%B0%ED%9A%8C.png)
 
-1. (공통) 웹소켓을 이용한 사용자와 관리자 간의 실시간 채팅상담 기능 구현
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B3%A0%EA%B0%9D%EA%B4%80%EB%A6%AC/%ED%81%90%EB%A0%88%EC%9D%B4%EC%85%98%EB%A0%88%ED%84%B0/%ED%81%90%EB%A0%88%EC%9D%B4%EC%85%98%EB%A0%88%ED%84%B0%20%EC%83%81%EC%84%B8%EC%A1%B0%ED%9A%8C.png)
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/사용자/채팅상담/채팅상담.png)
+13. (관리자) 큐레이션 레터 이메일 전송 및 전송내역 DB저장 기능 구현
 
-![](/Users/ara/github/bookjuck/[08]화면캡처/관리자/채팅상담/채팅상담.png)
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B3%A0%EA%B0%9D%EA%B4%80%EB%A6%AC/%ED%81%90%EB%A0%88%EC%9D%B4%EC%85%98%EB%A0%88%ED%84%B0/%ED%81%90%EB%A0%88%EC%9D%B4%EC%85%98%EB%A0%88%ED%84%B0%20%EC%9E%91%EC%84%B1.png)
+
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B3%A0%EA%B0%9D%EA%B4%80%EB%A6%AC/%ED%81%90%EB%A0%88%EC%9D%B4%EC%85%98%EB%A0%88%ED%84%B0/%ED%81%90%EB%A0%88%EC%9D%B4%EC%85%98%EB%A0%88%ED%84%B0%20%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0.png)
+
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B3%A0%EA%B0%9D%EA%B4%80%EB%A6%AC/%ED%81%90%EB%A0%88%EC%9D%B4%EC%85%98%EB%A0%88%ED%84%B0/%ED%81%90%EB%A0%88%EC%9D%B4%EC%85%98%EB%A0%88%ED%84%B0%20%EC%88%98%EC%8B%A0.jpg)
+
+14. (공통) 웹소켓을 이용한 사용자와 관리자 간의 실시간 채팅상담 기능 구현
+
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%82%AC%EC%9A%A9%EC%9E%90/%EC%B1%84%ED%8C%85%EC%83%81%EB%8B%B4/%EC%B1%84%ED%8C%85%EC%83%81%EB%8B%B4.png)
+
+![](https://github.com/arajo-hub/bookjuck/blob/dev/%5B08%5D%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EC%B1%84%ED%8C%85%EC%83%81%EB%8B%B4/%EC%B1%84%ED%8C%85%EC%83%81%EB%8B%B4.png)
 
 #### 소감
 
